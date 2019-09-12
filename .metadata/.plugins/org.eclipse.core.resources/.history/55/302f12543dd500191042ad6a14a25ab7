@@ -1,0 +1,5 @@
+package com.hust.soict.son.client_server;
+
+public class Client {
+
+}

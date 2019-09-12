@@ -1,0 +1,14 @@
+package com.hust.soict.son.client_server;
+
+import java.net.Socket;
+
+public class Sorter extends Thread {
+		private Socket socket;
+		private int clientNumber;
+		public Sorter(Socket socket, int clientNumber) {
+			this.socket = socket;             
+			this.clientNumber = clientNumber;
+			 System.out.println("New client #" + clientNumber + " connected at " + socket);         
+			 }
+}
+
